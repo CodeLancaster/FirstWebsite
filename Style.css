@@ -90,23 +90,31 @@ body {
     background-color: red;
 }
 
+/*reserves space for the gallery titles hottest album recent & hottest album this month*/
+
 .albumgallerytitles {
 display: flex;
 }
 
-.albumgallerytitlemonth {
+.albumgallerytitlejustout {
     width: 50%;
     text-align: center;
     margin: 0px;
     display: inline-block;
+    font-family: 'Changa One', cursive;
+    color: red;
 }
 
-.albumgallerytitleweek {
+.albumgallerytitleofthemonth {
     width: 50%;
     text-align: center;
     margin: 0px;
     display: inline-block;
+    font-family: 'Changa One', cursive;
+    color: red
 }
+
+/* image grid made with flex */
 
 .albumgallery {
     display: flex;
@@ -127,6 +135,18 @@ display: flex;
 flex-direction: column;
 }
 
+/* temporary album of the month */
+
+.albumofthemonthbox {
+    display: flex;
+    width: 100%;
+}
+
+.albumofthemonth img {
+    padding: 2px;
+    width: 90%;
+}
+
 /* advertisements */
 
 .advertisement {
@@ -138,5 +158,9 @@ flex-direction: column;
 
 .mainarticle { 
     width: 50%
+}
+
+.article-section1 {
+    text-align: center;
 }
 
