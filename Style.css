@@ -2,24 +2,24 @@ body {
     margin: 0px;
 }
 
+/* navigation bar */
 .topnav {
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid black;
-    height: 40px;
+    border-bottom: 8px solid black;
+    height: 60px;
     z-index: 10;
     background: white;
     display: flex;
-   
 }
 
 .navlogo img {
-    height: 40px;    
+    margin: 1px;
+    height: 38px;    
 }
 
 .navtitle{
     text-align: center;
-    
 }
 
 .banner {
@@ -34,6 +34,8 @@ body {
     width: 100%;
 }
 
+/* main content */
+
 .sidebar {
     width: 300px;
     color: black;
@@ -45,10 +47,49 @@ body {
     position: relative;
     background: black;
     display: flex;
-    justify-content: space-between;
     padding-top: 20px;
     color: white;
 }
+
+/* album display */
+
+.album1 {
+    height: 100px;
+    width: 100px;
+}
+
+.album2 {
+    height: 100px;
+    width: 100px;
+}
+
+.album {
+    margin: 10px;   
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: red;
+}
+.albumgallery {
+    display: flex;
+}
+
+.albumrow1 {
+display: flex;
+flex-direction: column;
+}
+
+.albumrow2 {
+display: flex;
+flex-direction: column;
+}
+
+.albumrow3 {
+display: flex;
+flex-direction: column;
+}
+
+/* advertisements */
 
 .advertisement {
     width: 300px;
@@ -60,8 +101,3 @@ body {
     width: 50%
 }
 
-footer {
-    width: 100%;
-    display: flex;
-    
-}
