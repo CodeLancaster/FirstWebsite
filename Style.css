@@ -21,14 +21,16 @@ body {
 
 .navtitle{
     text-align: center;
-    font-family: 
+    font-family: 'Modak', cursive;
+    font-size: 50px;
 }
 
 .sociallinks {
     display: flex;
     list-style: none;
     letter-spacing: 5px;
-    font-size: 30px;
+    font-size: 38px;
+    margin-top: 12px;
 }
 
 .banner {
@@ -57,7 +59,7 @@ body {
     position: relative;
     background: black;
     display: flex;
-    padding-top: 20px;
+    padding-top: 9px;
     color: white;
 }
 
@@ -80,6 +82,25 @@ body {
     border: 1px solid white;
     background-color: red;
 }
+
+.albumgallerytitles {
+display: flex;
+}
+
+.albumgallerytitlemonth {
+    width: 50%;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+}
+
+.albumgallerytitleweek {
+    width: 50%;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+}
+
 .albumgallery {
     display: flex;
 }
@@ -102,7 +123,7 @@ flex-direction: column;
 /* advertisements */
 
 .advertisement {
-    width: 300px;
+    width: 30%;
     color: black;
     background: #F1F1F1;
 }
