@@ -11,15 +11,24 @@ body {
     z-index: 10;
     background: white;
     display: flex;
+    justify-content: space-between;
 }
 
 .navlogo img {
     margin: 1px;
-    height: 38px;    
+    height: 58px;    
 }
 
 .navtitle{
     text-align: center;
+    font-family: 
+}
+
+.sociallinks {
+    display: flex;
+    list-style: none;
+    letter-spacing: 5px;
+    font-size: 30px;
 }
 
 .banner {
@@ -32,6 +41,7 @@ body {
 
 .banner img {
     width: 100%;
+    height: 700px;
 }
 
 /* main content */
