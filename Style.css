@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+}
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 40px;
+    z-index: 10;
+    background: white;
+    display: flex;
+   
+}
+
+.navlogo img {
+    height: 40px;    
+}
+
+.navtitle{
+    text-align: center;
+    
+}
+
+.banner {
+    top: 41px;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.sidebar {
+    width: 300px;
+    color: black;
+    background: #F1F1F1;
+}
+
+.maincontent {
+    top: 300px;
+    position: relative;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: white;
+}
+
+.advertisement {
+    width: 300px;
+    color: black;
+    background: #F1F1F1;
+}
+
+.mainarticle { 
+    width: 50%
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    
+}
