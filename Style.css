@@ -57,7 +57,7 @@ body {
     
     color: black;
     background: #F1F1F1;
-    flex-grow: 1;
+    width: 25%;
 }
 
 .maincontent {
@@ -67,7 +67,7 @@ body {
     display: flex;
     padding-top: 9px;
     color: white;
-    flex-grow: 2;
+    
 }
 
 /* album display */
@@ -149,15 +149,19 @@ flex-direction: column;
 
 /* advertisements */
 
-.advertisement {
-    
+div .advertisement {
     color: black;
     background: #F1F1F1;
-    flex-grow: 1;
+    width: 25%;
+}
+
+.advertisement p {
+    display: inline;
 }
 
 .mainarticle { 
-    width: 50%
+    
+    width: 50%;
 }
 
 .article-section1 {
