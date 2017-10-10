@@ -1,0 +1,10 @@
+ .advertisement {
+    color: black;
+    background: #F1F1F1;
+    width: 25%;
+}
+
+.advertisement p {
+    display: inline;
+}
+

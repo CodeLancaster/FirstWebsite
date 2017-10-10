@@ -1,0 +1,65 @@
+/* navigation bar */
+.topnav {
+    position: fixed;
+    width: 100%;
+    border-bottom: 8px solid black;
+    height: 60px;
+    z-index: 10;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlogo img {
+    margin: 1px;
+    height: 58px; 
+    flex-grow: 1;   
+}
+
+.navtitle{
+    text-align: center;
+    font-family: 'Modak', cursive;
+    font-size: 50px;
+    flex-grow: 2
+}
+
+.sociallinks {
+    display: flex;
+    list-style: none;
+    letter-spacing: 5px;
+    font-size: 38px;
+    margin-top: 12px;
+    flex-grow: 1;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.fa1 {
+color: #0084b4;
+}
+
+.fa2 {
+color: #3b5998;
+}
+
+.fa3 {
+    color: yellow;
+}
+.fa4 {
+    color: black;
+}
+
+/* banner */
+
+.banner {
+    top: 41px;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 700px;
+}

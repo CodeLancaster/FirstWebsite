@@ -1,0 +1,17 @@
+/* main content */
+
+.sidebar {
+    
+    color: black;
+    background: #F1F1F1;
+    width: 25%;
+}
+
+.maincontent {
+    top: 300px;
+    position: relative;
+    background: black;
+    display: flex;
+    padding-top: 9px;
+    color: white;
+    

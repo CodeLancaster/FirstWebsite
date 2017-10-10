@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+/* advertisements */
+
+div .advertisement {
+    color: black;
+    background: #F1F1F1;
+    width: 25%;
+}
+
+.advertisement p {
+    display: inline;
+}
+
+.mainarticle { 
+    
+    width: 50%;
+}
+
+.article-section1 {
+    text-align: center;
+}
+
